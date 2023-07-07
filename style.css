@@ -471,8 +471,8 @@ footer span a:hover{
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
     }
     .about .about-content .right{
         flex: 100%;
