@@ -467,10 +467,12 @@ footer span a:hover{
         justify-content: center;
         margin: 0 auto 60px;
     }
-    .skills .skills-content .right img {
+    .skills .skills-content .right img{
         display: flex;
         justify-content: center;
-        margin: 0 auto 30px;
+        margin: 0 auto 60px;
+        width: 200px;
+        height: 200px;
     }
     .about .about-content .right{
         flex: 100%;
