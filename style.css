@@ -326,83 +326,27 @@ section .title::after{
     left: 0;
     background: #222183;
 }
-.skills .skills-content .right .html::before{
-    width: 93%;
+.skills .skills-content .right .java::before{
+    width: 80%;
 }
-.skills .skills-content .right .css::before{
-    width: 90%;
+.skills .skills-content .right .spring::before{
+    width: 70%;
 }
-.skills .skills-content .right .js::before{
-    width: 75%;
+.skills .skills-content .right .mysql::before{
+    width: 70%;
 }
-.skills .skills-content .right .react::before{
+.skills .skills-content .right .mongo::before{
     width: 55%;
 }
-.skills .skills-content .right .java::before{
-    width: 47%;
-}
-.skills .skills-content .right .git::before{
+.skills .skills-content .right .js::before{
     width: 65%;
+}
+.skills .skills-content .right .react::before{
+    width: 47%;
 }
 /*  sessão equipe  */
 
-.project .carousel .card{
-    background: #222;
-    border-radius: 6px;
-    padding: 25px 35px;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-.project .carousel .card:hover{
-    background: #222183;
-}
-.project .carousel .card img{
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 5%;
-    border: 5px solid #222183;
-    transition: all 0.3s ease;
-    
-}
-.project .carousel .card:hover img{
-    border-color: #fff;
-}
-.project .carousel .card .box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-}
-.project .carousel .card:hover .box{
-    transform: scale(1.05);
-}
-.project .carousel .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-}
-.owl-dots{
-    text-align: center;
-    margin-top: 20px;
-}
-.owl-dot{
-    width: 14px;
-    height: 14px;
-    outline: none!important;
-    border-radius: 50%;
-    border: 2px solid #222183!important;
-    transition: all 0.3s ease;
-}
-.owl-dot.active{
-    width: 35px;
-    border-radius: 15px;
-}
-.owl-dot.active,
-.owl-dot:hover{
-    background: #222183!important;
-}
+
 /*  sessão Contato  */
 .contact .contact-content .column{
     width: calc(50% - 30px);
